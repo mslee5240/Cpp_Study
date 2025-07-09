@@ -8,8 +8,8 @@ int main() {
     int data = 0;
 
     test_func(data);
-    
-    std::cout << data << std::endl;
+
+    std::cout << data << std::endl; // 출력: 10
 
     return 0;
 }

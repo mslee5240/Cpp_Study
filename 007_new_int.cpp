@@ -3,7 +3,7 @@
 int main() {
     // new : 메모리 할당 (메모리 크기를 할당하지 않음)
     int* p_data = new int;
-    int* p_new_data = new int(10);
+    int* p_new_data = new int(10); // 포인터 선언과 값 10 대입
 
     *p_data = 5;
 

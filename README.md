@@ -6,21 +6,18 @@
 - **강의**: "C개발자를 위한 최소한의 C++"
 - **목표**: C 개발자 관점에서 C++ 핵심 개념 습득
 
-## 📁 폴더 구조
-```
-Cpp_Study/
-├── 01_Differences_between_Cpp_and_C_Part1/
-├── 02_Differences_between_Cpp_and_C_Part2/
-├── 03_Functions_and_Namespaces/
-├── 04_Classes_Beginning_of_OOP/
-├── 05_Copy_Constructor_and_Temporary_Objects/
-├── 06_Operator_Overloading/
-├── 07_Object_Relationships_and_Inheritance/
-├── 08_Advanced_Inheritance/
-├── 09_Templates/
-├── 10_Exception_Handling/
-└── 11_OOP_Address_Book_Development/
-```
+## 📖 학습 순서
+01_Differences_between_Cpp_and_C_Part1
+02_Differences_between_Cpp_and_C_Part2
+03_Functions_and_Namespaces
+04_Classes_Beginning_of_OOP
+05_Copy_Constructor_and_Temporary_Objects
+06_Operator_Overloading
+07_Object_Relationships_and_Inheritance
+08_Advanced_Inheritance
+09_Templates
+10_Exception_Handling
+11_OOP_Address_Book_Development
 
 ## ✍️ 학습 방법
 - **모든 코드를 직접 손으로 작성**: 강의 내용을 단순히 복사하지 않고 직접 타이핑하며 학습

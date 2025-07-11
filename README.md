@@ -1,9 +1,6 @@
 # Cpp_Study
 > C개발자를 위한 최소한의 C++ 강의 학습 레포지토리
 
-## 📚 강의 정보
-**"C개발자를 위한 최소한의 C++"** - C 개발자 관점에서 C++ 핵심 개념 습득
-
 ## 📖 학습 순서
 01. Differences between Cpp and C (Part 1)
 02. Differences between Cpp and C (Part 2)  

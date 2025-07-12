@@ -4,6 +4,7 @@ using namespace std;
 
 class MyData {
 public:
+    // 생성자 다중 정의
     MyData(int nParam) : nData(nParam) {
     }
 

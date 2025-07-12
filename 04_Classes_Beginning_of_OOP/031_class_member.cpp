@@ -12,6 +12,7 @@ public:
         data1 = 10;  // 할당 (초기화가 아님)
         data2 = 20;
     }
+    
     int data1, data2;
 
     void print_data() {
@@ -26,6 +27,7 @@ public:
     // 생성자에서 초기화
     Test_2() : data1(10), data2(20) {
     }
+
     int data1, data2;
 };
 
@@ -34,6 +36,7 @@ class Test_3 {
 public:
     Test_3() {
     }
+
     int data1 = 10;
     int data2 = 20;
 };

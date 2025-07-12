@@ -3,16 +3,16 @@
 using namespace std;
 
 class Test {
-    private:
-        int& data;  // 참조자는 선언과 동시에 초기화 필요
-    public:
-        // 생성자 다중 정의
-        Test(int& data) : data(data) {
-        }
+private:
+    int& data;  // 참조자는 선언과 동시에 초기화 필요
+public:
+    // 생성자 다중 정의
+    Test(int& data) : data(data) {
+    }
 
-        int get_data() {
-            return data;
-        }
+    int get_data() {
+        return data;
+    }
 };
 
 int main() {

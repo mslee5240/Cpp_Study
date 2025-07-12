@@ -2,13 +2,13 @@
 
 class UserData {
     // 접근 제어 지시자
-    public:
-        int age;
-        char name[32];
+public:
+    int age;
+    char name[32];
 
-        void print() {
-            printf("%d, %s\n", age, name);
-        }
+    void print() {
+        printf("%d, %s\n", age, name);
+    }
 };
 
 int main() {

@@ -46,6 +46,7 @@ int main() {
     cout << "Begin of main()" << endl;
     testFunc(10); // = TestData rhs(10);
     // 임시객체 생성 -> 활용X -> 임시 객체의 의존 상실 -> 소멸
+    
     cout << "End of main()" << endl;
 
     return 0;

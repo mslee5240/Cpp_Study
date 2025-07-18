@@ -2,10 +2,17 @@
 
 class CMyString {
 public:
-    CMyString();
-    explicit CMyString(const char* param);
-    CMyString(const CMyString& rhs);
-    ~CMyString();
+    // 기본 생성자
+    CMyString(); 
+
+    // 매개변수 생성자 (explicit 키워드로 암시적 변환 방지)
+    explicit CMyString(const char* param); 
+
+    // 복사 생성자
+    CMyString(const CMyString& rhs); 
+    
+    // 소멸자
+    ~CMyString(); 
 
     const char* getData() const {
         return m_pszData;

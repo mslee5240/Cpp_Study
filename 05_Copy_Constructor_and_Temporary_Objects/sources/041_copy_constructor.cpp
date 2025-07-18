@@ -9,7 +9,8 @@ public:
     }
 
     // 복사 생성자 (const 참조 매개변수: 원본 객체가 변경되지 않도록 보장)
-    MyData(const MyData& rhs) : nData(rhs.nData) {  // rhs(Right Hand Side: 대입 연산자의 오른쪽에 오는 값을 의미)
+    // - rhs(Right Hand Side: 대입 연산자의 오른쪽에 오는 값을 의미)
+    MyData(const MyData& rhs) : nData(rhs.nData) {  
         cout << "MyData(const MyData&)" << endl;
     }
 
@@ -17,7 +18,8 @@ public:
     MyData(const MyData& rhs) {
         cout << "MyData(const MyData&)" << endl;
         this->nData = rhs.nData;
-    } */
+    } 
+    */
 
     int getData() {
         return nData;

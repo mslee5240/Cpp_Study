@@ -3,18 +3,20 @@ using namespace std;
 
 class TestData {
 public:
-    /* 1. 변환 생성자(Conversion Constructor)
+    /* 변환 생성자(Conversion Constructor)
      * - 매개변수가 하나인 생성자 
      * - 다른 타입을 자동으로 해당 클래스 타입으로 변환 */
     TestData(const int data) : nData(data) {
         cout << "TestData(int)" << endl;
     }
 
-    /* 2. 복사 생성자 - 함수 변환 시 임시 객체 생성에 사용됨 */
+    /* 복사 생성자 
+     * - 함수 변환 시 임시 객체 생성에 사용됨 */
     TestData(const TestData& rhs) : nData(rhs.nData) {
         cout << "TestData(const TestData&)" << endl;
     }
 
+    /* 소멸자 */
     ~TestData() {
         cout << "~TestData( " << nData << " )" << endl;
     }
@@ -32,7 +34,7 @@ private:
     int nData = 0;  // 멤버 변수 초기화
 };
 
-/* 값에 의한 전달, 값에 의한 반환*/
+/* 값에 의한 전달, 값에 의한 반환 -> 임시 객체 생성*/
 TestData testFunc(TestData rhs) {
     cout << "Begin of testFunc()" << endl;
     rhs.setData(20);
